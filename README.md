@@ -18,7 +18,16 @@ Issues are tracked in Githubs' issue tracker.
 
 # Copyright
 This project is (c) 2015 by Sascha Peter <sascha.o.peter@gmail.com>.
-Licencing may be decided further down the line when the project evolves.
+A more flexible licence which allows modification may be decided if this project
+gains general interest (please approach me via email).
+
+As per github terms of service:
+* You may view the project and the code within
+* You may create a fork of this project
+
+Beyond what I have signed on github and their ToS by making
+this repository public, you may ask for permission beforehand
+for any additional rights.
 
 # Main contributors
 Sascha Peter <sascha.o.peter@gmail.com> - Project Lead
