@@ -71,6 +71,13 @@ TEMPLATES = [
 TEMPLATE_LOADERS = ('django.template.loaders.filesystem.Loader',
                     'django.template.loaders.app_directories.Loader')
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+
 WSGI_APPLICATION = 'sp_portfolio.wsgi.application'
 
 # Internationalization
@@ -92,4 +99,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-from .settings_local import *
+try:
+    from .settings_local import *
+except ImportError:
+    # Local development settings to overwrite db / secret / ...
+    # This section may needs improvement with a specific configuration file
+    # for the secret key.
+    import random
+    SECRET_KEY = ''.join([random.SystemRandom().choice('abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)') for i in range(50)])
+    pass
