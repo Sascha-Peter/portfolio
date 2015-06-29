@@ -1,5 +1,4 @@
-"""
-WSGI config for sp_portfolio project.
+"""WSGI config for sp_portfolio project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
