@@ -58,3 +58,7 @@ target/
 
 # Database
 *.sqlite3
+
+# Local configuration files
+settings_local.py
+style.css
