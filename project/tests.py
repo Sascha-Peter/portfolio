@@ -1,7 +1,7 @@
 """This file contains all project related test cases
 
 @author: Sascha Peter <sascha.o.peter@gmail.com>
-@version: 0.1-alpha
+@version: 0.0.1-alpha
 @since: 2015-05-15
 """
 from django.test import TestCase
