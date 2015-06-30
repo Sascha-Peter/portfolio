@@ -1,3 +1,5 @@
+[![Circle CI](https://circleci.com/gh/Sascha-Peter/portfolio.svg?style=svg)](https://circleci.com/gh/Sascha-Peter/portfolio)
+
 # portfolio
 Django portfolio site project
 
