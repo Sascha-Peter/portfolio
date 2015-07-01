@@ -1,13 +1,14 @@
+[![Circle CI](https://circleci.com/gh/Sascha-Peter/portfolio.svg?style=svg)](https://circleci.com/gh/Sascha-Peter/portfolio)
+
 # portfolio
 Django portfolio site project
 
 This project resembles a simple portfolio site written in Django.
 
 # Goal
-This project is just a small portfolio work.
-Should this project find general interest with others, I'm more than
-happy to find a suitable solution to make it generally available through
-a nice licence allowing others to work and build upon this project.
+This project aims to develop a simple portfolio website for use by Django developers.
+If others find it useful I am more than happy to open access via a suitable license 
+so they can also contribute.
 
 # PIP
 All pip requirements can be found in pip-requirements.txt
