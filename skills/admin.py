@@ -1,7 +1,7 @@
 """This file contains the admin implementation for the admin interface
 
 @author: Sascha Peter <sascha.o.peter@gmail.com>
-@version: 0.1.0-alpha
+@version: 0.2.0-alpha
 @since: 2015-07-01
 """
 from django.contrib import admin
