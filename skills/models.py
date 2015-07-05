@@ -11,9 +11,9 @@ class Skill(models.Model):
     """Class for individual skills"""
     skill_name = models.CharField(max_length=100)
     skill_level = models.TextField(blank=True)
+    skill_category = models.ForeignKey('SkillCategory')
 
 
 class SkillCategory(models.Model):
     """Class for skill categories, grouping skills"""
     category_name = models.CharField(max_length=150)
-    skill_set = models.ForeignKey(Skill)
