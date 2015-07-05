@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{ category.category_name }}</h3>
+  </div>
+  <div class="panel-body">
+    <ul class="list-group">
+      {% for skill in category.skill_set.all %}
+      <li class="list-group-item">
+      <span class="badge">{{ skill.skill_level }}</span>
+      {{ skill.skill_name }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
