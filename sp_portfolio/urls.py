@@ -20,10 +20,12 @@ from django.views.generic.base import TemplateView
 from django.conf import settings
 from django.views.static import serve
 
+from skills.views import SkillCategoryView
+
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^$', TemplateView.as_view(template_name="home.html"), name="home"),
+    url(r'^$', SkillCategoryView.as_view(), name="home"),
     url(r'^project/', include('project.urls')),
 ]
 
