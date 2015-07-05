@@ -15,20 +15,12 @@ All pip requirements can be found in pip-requirements.txt
 All pip packages can be installed through *pip install -r pip-requirements.txt*
 
 # Issues
-Issues are tracked in Githubs' issue tracker.
+Issues are tracked in Githubs issue tracker.
 
-# Copyright
+# Copyright & License
 This project is (c) 2015 by Sascha Peter <sascha.o.peter@gmail.com>.
-A more flexible licence which allows modification may be decided if this project
-gains general interest (please approach me via email).
 
-As per github terms of service:
-* You may view the project and the code within
-* You may create a fork of this project
-
-Beyond what I have signed on github and their ToS by making
-this repository public, you may ask for permission beforehand
-for any additional rights.
+Licensed under the GPLv2.0 - http://www.gnu.org/licenses/gpl-2.0.txt
 
 # Main contributors
 Sascha Peter <sascha.o.peter@gmail.com> - Project Lead

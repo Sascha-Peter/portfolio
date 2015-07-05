@@ -1,7 +1,7 @@
 """This file contains all views related to the project display
 
 @author: Sascha Peter <sascha.o.peter@gmail.com>
-@version: 0.0.1-alpha
+@version: 0.2.0-alpha
 @since: 2015-05-15
 """
 from django.views.generic import ListView, DetailView
