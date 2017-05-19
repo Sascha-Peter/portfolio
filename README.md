@@ -10,7 +10,10 @@ This project aims to develop a simple portfolio website for use by Django develo
 
 # PIP
 All pip requirements can be found in pip-requirements.txt
-All pip packages can be installed through *pip install -r pip-requirements.txt*
+All pip packages can be installed through:
+```bash
+pip install -r pip-requirements.txt
+```
 
 # Issues
 Issues are tracked in Githubs issue tracker.
