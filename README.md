@@ -1,4 +1,4 @@
-[![Circle CI](https://circleci.com/gh/Sascha-Peter/portfolio.svg?style=svg)](https://circleci.com/gh/Sascha-Peter/portfolio)
+[![Circle CI](https://circleci.com/gh/Sascha-Peter/portfolio.svg?style=svg)](https://circleci.com/gh/Sascha-Peter/portfolio) [![Updates](https://pyup.io/repos/github/Sascha-Peter/portfolio/shield.svg)](https://pyup.io/repos/github/Sascha-Peter/portfolio/) [![Python 3](https://pyup.io/repos/github/Sascha-Peter/portfolio/python-3-shield.svg)](https://pyup.io/repos/github/Sascha-Peter/portfolio/)
 
 # portfolio
 Django portfolio site project
