@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
+"""Auto generated database migration file."""
 from __future__ import unicode_literals
 
 from django.db import models, migrations
 
 
 class Migration(migrations.Migration):
+    """Database migration file for new skill field."""
 
     dependencies = [
         ('skills', '0001_initial'),

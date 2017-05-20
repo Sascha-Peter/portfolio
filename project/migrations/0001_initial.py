@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
+"""Automated database migration file."""
 from __future__ import unicode_literals
 
 from django.db import models, migrations
 
 
 class Migration(migrations.Migration):
+    """Database migration to add project model."""
 
     dependencies = [
     ]
@@ -13,7 +15,11 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Project',
             fields=[
-                ('id', models.AutoField(primary_key=True, serialize=False, auto_created=True, verbose_name='ID')),
+                ('id', models.AutoField
+                    (primary_key=True,
+                        serialize=False,
+                        auto_created=True,
+                        verbose_name='ID')),
                 ('creation_date', models.DateField(auto_now=True)),
                 ('publication_date', models.DateField(null=True, blank=True)),
                 ('is_live', models.BooleanField(default=False)),
