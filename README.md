@@ -15,6 +15,9 @@ All pip packages can be installed through:
 pip install -r pip-requirements.txt
 ```
 
+# Python Versions
+This project is tested under Python2.7 and 3.4, 3.5, 3.6.
+
 # Issues
 Issues are tracked in Githubs issue tracker.
 
