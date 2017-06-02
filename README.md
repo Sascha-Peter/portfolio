@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/adff507bf4a54e618fbd02e04666b33c)](https://www.codacy.com/app/sascha.o.peter/portfolio?utm_source=github.com&utm_medium=referral&utm_content=Sascha-Peter/portfolio&utm_campaign=badger)
 [![Circle CI](https://circleci.com/gh/Sascha-Peter/portfolio.svg?style=svg)](https://circleci.com/gh/Sascha-Peter/portfolio) [![Updates](https://pyup.io/repos/github/Sascha-Peter/portfolio/shield.svg)](https://pyup.io/repos/github/Sascha-Peter/portfolio/) [![Python 3](https://pyup.io/repos/github/Sascha-Peter/portfolio/python-3-shield.svg)](https://pyup.io/repos/github/Sascha-Peter/portfolio/)
 
 # portfolio
