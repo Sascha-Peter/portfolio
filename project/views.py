@@ -27,10 +27,10 @@ class ProjectDetailView(DetailView):
 
     def get_object(self):
         """Get object and return."""
-        object = super(ProjectDetailView, self).get_object()
-        object.last_viewed = timezone.now()
-        object.save()
-        return object
+        project_object = super(ProjectDetailView, self).get_object()
+        project_object.last_viewed = timezone.now()
+        project_object.save()
+        return project_object
 
     def get_context_data(self, **kwargs):
         """Get additional context data and return."""
