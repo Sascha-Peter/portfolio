@@ -5,5 +5,5 @@ from .views import ProjectListView, ProjectDetailView
 urlpatterns = [
     url(r'^list/', ProjectListView.as_view(), name="project-list"),
     url(r'^(?P<slug>[-\w]+)/',
-    			ProjectDetailView.as_view(), name="project-detail"),
+        ProjectDetailView.as_view(), name="project-detail"),
 ]

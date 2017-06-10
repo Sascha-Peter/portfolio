@@ -1,41 +1,49 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/adff507bf4a54e618fbd02e04666b33c)](https://www.codacy.com/app/sascha.o.peter/portfolio?utm_source=github.com&utm_medium=referral&utm_content=Sascha-Peter/portfolio&utm_campaign=badger)
-[![Circle CI](https://circleci.com/gh/Sascha-Peter/portfolio.svg?style=svg)](https://circleci.com/gh/Sascha-Peter/portfolio) [![Updates](https://pyup.io/repos/github/Sascha-Peter/portfolio/shield.svg)](https://pyup.io/repos/github/Sascha-Peter/portfolio/) [![Python 3](https://pyup.io/repos/github/Sascha-Peter/portfolio/python-3-shield.svg)](https://pyup.io/repos/github/Sascha-Peter/portfolio/)
-
 # portfolio
-Django portfolio site project
 
-This project resembles a simple portfolio site written in Django.
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/adff507bf4a54e618fbd02e04666b33c)](https://www.codacy.com/app/sascha.o.peter/portfolio?utm_source=github.com&utm_medium=referral&utm_content=Sascha-Peter/portfolio&utm_campaign=badger) [![Circle CI](https://circleci.com/gh/Sascha-Peter/portfolio.svg?style=svg)](https://circleci.com/gh/Sascha-Peter/portfolio) [![Updates](https://pyup.io/repos/github/Sascha-Peter/portfolio/shield.svg)](https://pyup.io/repos/github/Sascha-Peter/portfolio/) [![Python 3](https://pyup.io/repos/github/Sascha-Peter/portfolio/python-3-shield.svg)](https://pyup.io/repos/github/Sascha-Peter/portfolio/)
+
+A simple portfolio website written in [Python](https://www.python.org/), using [Django](https://www.djangoproject.com/).
 
 # Goal
 This project aims to develop a simple portfolio website for use by Django developers.
 
-# PIP
-All pip requirements can be found in pip-requirements.txt
-All pip packages can be installed through:
+# Requirements
+To run this project, the following requirements need to be met:
+
+* Python 2.7.12, 3.3+
+* Virtualenv
+* PIP (Package Manager for installing additional requirements)
+
+Other versions of python may work but the project has been tested against the following python versions:
+
+* 2.7.12
+* 3.3.6
+* 3.4.4
+* 3.5.3
+* 3.6.1
+
+## Additional requirements
+All additional packages can be found in `pip-requirements.txt`.
+
+### Installation of additional requirements
+All additional packages can be installed using `pip`:
+
 ```bash
 pip install -r pip-requirements.txt
 ```
-
-# Python Versions
-This project is tested under Python2.7 and 3.4, 3.5, 3.6.
 
 # Issues
 Issues are tracked in Githubs issue tracker.
 
 # Copyright & License
-This project is (c) 2015 by Sascha Peter <sascha.o.peter@gmail.com>.
-
-Licensed under the GPLv2.0 - http://www.gnu.org/licenses/gpl-2.0.txt
+This project is (c) 2015 by Sascha Peter.
+Licensed under the [GPLv2.0](http://www.gnu.org/licenses/gpl-2.0.txt).
 
 # Main contributors
-Sascha Peter <sascha.o.peter@gmail.com> - Project Lead
+[Sascha Peter](https://github.com/Sascha-Peter)
 
-# Feedback desired!
+# Feedback welcome!
 This project has been built in mind to provide developers and non-technical people
 with a simplistic, powerful portfolio site.
 
-Your feedback if you find any bugs, issues, have feature requests amongst other things
-is highly appreciated.
-
-You can use the github issue tracker, tweet me [at]sascha_o_peter or send
-me an email under sascha.o.peter@gmail.com.
+Please raise any bugs, issues or feature ideas in the github issue tracker.
