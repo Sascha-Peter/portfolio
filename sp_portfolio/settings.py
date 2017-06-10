@@ -106,4 +106,8 @@ except ImportError:
     # This section may needs improvement with a specific configuration file
     # for the secret key.
     import random
-    SECRET_KEY = ''.join([random.SystemRandom().choice('abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)') for i in range(50)])
+    SECRET_KEY = ''.join(
+        [random.SystemRandom().choice(
+            'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)'
+        ) for i in range(50)]
+    )

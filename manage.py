@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+"""Auto generated manage.py for running the django project."""
 import os
 import sys
 
