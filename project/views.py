@@ -25,7 +25,7 @@ class ProjectDetailView(DetailView):
 
     model = Project
 
-    def get_object(self):
+    def get_object(self, queryset=None):
         """Get object and return."""
         project_object = super(ProjectDetailView, self).get_object()
         project_object.last_viewed = timezone.now()
