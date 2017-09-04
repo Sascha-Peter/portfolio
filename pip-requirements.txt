@@ -4,5 +4,5 @@ coverage==4.4.1
 pluggy==0.5.1
 py==1.4.34
 pytz==2017.2
-tox==2.8.0
+tox==2.8.1
 virtualenv==15.1.0
