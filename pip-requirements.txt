@@ -1,5 +1,5 @@
 Pillow==5.0.0
-Django==1.11.7
+Django==2.0.2
 coverage==4.4.2
 pluggy==0.6.0
 py==1.5.2
