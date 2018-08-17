@@ -12,7 +12,7 @@ import datetime
 
 
 class ProjectTextCase(TestCase):
-    """Text case for projects."""
+    """Test case for projects."""
 
     def test_project_is_published(self):
         """Test that a published project is identified correctly."""
