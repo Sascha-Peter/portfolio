@@ -1,6 +1,6 @@
 Pillow==5.2.0
 Django==1.11.15
-coverage==4.5.1
+coverage==4.5.2
 pluggy==0.7.1
 py==1.7.0
 pytz==2018.5
