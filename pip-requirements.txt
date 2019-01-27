@@ -1,5 +1,5 @@
-Pillow==5.2.0
-Django==1.11.15
+Pillow==5.4.1
+Django==1.11.18
 coverage==4.5.2
 pluggy==0.7.1
 pytz==2018.9
