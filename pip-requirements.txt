@@ -1,7 +1,7 @@
+pluggy==0.8.1
 Pillow==5.4.1
 Django==1.11.18
 coverage==4.5.2
-pluggy==0.7.1
 pytz==2018.9
 py==1.7.0
 tox==3.2.1
