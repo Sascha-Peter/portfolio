@@ -1,6 +1,6 @@
 pluggy==0.8.1
 Pillow==5.4.1
-Django==1.11.18
+Django==2.1.7
 coverage==4.5.2
 tox==3.7.0
 pytz==2018.9
