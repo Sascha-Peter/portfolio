@@ -5,4 +5,4 @@ coverage==4.5.2
 tox==3.7.0
 pytz==2018.9
 py==1.7.0
-virtualenv==16.3.0
+virtualenv==16.4.1
