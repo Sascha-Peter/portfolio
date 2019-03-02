@@ -22,7 +22,7 @@ from django.views.static import serve
 from skills.views import SkillCategoryView
 
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', admin.site.urls),
 
     url(r'^$', SkillCategoryView.as_view(), name="home"),
     url(r'^project/', include('project.urls')),
