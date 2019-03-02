@@ -20,7 +20,8 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='skill',
             name='skill_category',
-            field=models.ForeignKey(default=0, to='skills.SkillCategory'),
+            field=models.ForeignKey(default=0, to='skills.SkillCategory',
+                                    on_delete=models.CASCADE),
             preserve_default=False,
         ),
     ]
