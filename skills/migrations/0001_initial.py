@@ -34,7 +34,8 @@ class Migration(migrations.Migration):
                     verbose_name='ID'
                 )),
                 ('category_name', models.CharField(max_length=150)),
-                ('skill_set', models.ForeignKey(to='skills.Skill')),
+                ('skill_set', models.ForeignKey(to='skills.Skill',
+                                                on_delete=models.CASCADE)),
             ],
         ),
     ]
