@@ -4,11 +4,11 @@ author: Sascha Peter <sascha.o.peter@gmail.com>
 version:: 0.2.0-alpha
 since: 2015-05-15
 """
+import datetime
+
 from django.test import TestCase
 from django.utils import timezone
 from .models import Project
-
-import datetime
 
 
 class ProjectTextCase(TestCase):
