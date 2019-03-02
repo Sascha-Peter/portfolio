@@ -12,7 +12,8 @@ class Skill(models.Model):
 
     skill_name = models.CharField(max_length=100)
     skill_level = models.TextField(blank=True)
-    skill_category = models.ForeignKey('SkillCategory')
+    skill_category = models.ForeignKey('SkillCategory',
+                                       on_delete=models.CASCADE)
 
 
 class SkillCategory(models.Model):
