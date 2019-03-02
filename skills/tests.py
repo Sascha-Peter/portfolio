@@ -5,7 +5,7 @@ version:: 0.2.0-alpha
 since: 2015-07-05
 """
 from django.test import Client, TestCase, RequestFactory
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 from .models import Skill, SkillCategory
 
