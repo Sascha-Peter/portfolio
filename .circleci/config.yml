@@ -4,11 +4,12 @@ jobs:
       working_directory: ~/circleci-demo-python-django
       docker:
           - image: circleci/python:3.6.4
+            environment:
+              LD_Library_PATH: /usr/local/lib
       steps:
           - checkout
           - run:
               command: |
-                  export LD_LIBRARY_PATH="/usr/local/lib"
                   sudo pip install pipenv
                   pipenv install -r pip-requirements.txt
           - run:
