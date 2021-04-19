@@ -3,11 +3,11 @@ jobs:
     build:
       working_directory: ~/circleci-demo-python-django
       docker:
-          - image: circleci/python:3.6.4
-            environment:
-              LD_Library_PATH: /usr/local/lib
+          - image: cimg/python:3.9.4
+
       steps:
           - checkout
+          - run: python --version
           - run:
               command: |
                   sudo pip install pipenv
@@ -15,4 +15,3 @@ jobs:
           - run:
               command: |
                   pipenv run python manage.py test
-
