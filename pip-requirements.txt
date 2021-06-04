@@ -1,4 +1,4 @@
-Django==3.1.8
+Django==3.1.9
 pluggy==0.13.1
 Pillow==8.2.0
 tox==3.23.0
