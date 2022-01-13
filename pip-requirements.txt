@@ -1,6 +1,6 @@
 Django==3.1.8
 pluggy==0.13.1
-Pillow==8.2.0
+Pillow==9.0.0
 tox==3.23.0
 virtualenv==20.4.3
 pytz==2021.1
